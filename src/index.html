@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1></h1>
+    <div class="select-box">
+      <div class="select-box__current" tabindex="1">
+        <div class="select-box__value">
+          <input
+            class="select-box__input"
+            type="radio"
+            id="0"
+            value="1"
+            name="Ben"
+            checked="checked"
+          />
+          <img class="select-box__flag" src="./assets/flags/de.svg" />
+          <p class="select-box__input-text">De</p>
+        </div>
+        <div class="select-box__value">
+          <input
+            class="select-box__input"
+            type="radio"
+            id="1"
+            value="2"
+            name="Ben"
+            checked="checked"
+          />
+          <img class="select-box__flag" src="./assets/flags/en.svg" />
+          <p class="select-box__input-text">En</p>
+        </div>
+        <div class="select-box__value">
+          <input
+            class="select-box__input"
+            type="radio"
+            id="2"
+            value="3"
+            name="Ben"
+            checked="checked"
+          />
+          <img class="select-box__flag" src="./assets/flags/es.svg" />
+          <p class="select-box__input-text">Es</p>
+        </div>
+        <div class="select-box__value">
+          <input
+            class="select-box__input"
+            type="radio"
+            id="3"
+            value="4"
+            name="Ben"
+            checked="checked"
+          />
+          <img class="select-box__flag" src="./assets/flags/fr.svg" />
+          <p class="select-box__input-text">Fr</p>
+        </div>
+        <div class="select-box__value">
+          <input
+            class="select-box__input"
+            type="radio"
+            id="4"
+            value="5"
+            name="Ben"
+            checked="checked"
+          />
+          <img class="select-box__flag" src="./assets/flags/ja.svg" />
+          <p class="select-box__input-text">Ja</p>
+        </div>
+        <div class="select-box__value">
+          <input
+            class="select-box__input"
+            type="radio"
+            id="5"
+            value="6"
+            name="Ben"
+            checked="checked"
+          />
+          <img class="select-box__flag" src="./assets/flags/pt.svg" />
+          <p class="select-box__input-text">Pt</p>
+        </div>
+      </div>
+      <ul class="select-box__list">
+        <li>
+          <label
+            id="?lang=de"
+            class="select-box__option"
+            for="0"
+            aria-hidden="aria-hidden"
+          >
+            <img
+              class="select-box__flag select-box__flag_options"
+              src="./assets/flags/de.svg"
+            />De</label
+          >
+        </li>
+        <li>
+          <label
+            id="?lang=en"
+            class="select-box__option"
+            for="1"
+            aria-hidden="aria-hidden"
+            ><img
+              class="select-box__flag select-box__flag_options"
+              src="./assets/flags/en.svg"
+            />En</label
+          >
+        </li>
+        <li>
+          <label
+            id="?lang=es"
+            class="select-box__option"
+            for="2"
+            aria-hidden="aria-hidden"
+            ><img
+              class="select-box__flag select-box__flag_options"
+              src="./assets/flags/es.svg"
+            />Es</label
+          >
+        </li>
+        <li>
+          <label
+            id="?lang=fr"
+            class="select-box__option"
+            for="3"
+            aria-hidden="aria-hidden"
+            ><img
+              class="select-box__flag select-box__flag_options"
+              src="./assets/flags/fr.svg"
+            />Fr</label
+          >
+        </li>
+        <li>
+          <label
+            id="?lang=ja"
+            class="select-box__option"
+            for="4"
+            aria-hidden="aria-hidden"
+            ><img
+              class="select-box__flag select-box__flag_options"
+              src="./assets/flags/ja.svg"
+            />Ja</label
+          >
+        </li>
+        <li>
+          <label
+            id="?lang=pt"
+            class="select-box__option"
+            for="5"
+            aria-hidden="aria-hidden"
+            ><img
+              class="select-box__flag select-box__flag_options"
+              src="./assets/flags/pt.svg"
+            />Pt</label
+          >
+        </li>
+      </ul>
+    </div>
+
+    <a href="#">
+      <img src="./assets/cross.png" class="cross" />
+    </a>
+
+    <div class="cards">
+      <div class="cards__card cards__card_unlimited-art">
+        <img
+          src="./assets/unlimited-art/f1@2x.png"
+          srcset="./assets//unlimited-art/f1@3x.png"
+        />
+        <p></p>
+      </div>
+      <div class="cards__card cards__card_exclusive-styles">
+        <img
+          src="./assets/exclusive-styles/f2@2x.png"
+          srcset="./assets/exclusive-styles/f2@3x.png"
+        />
+        <p></p>
+      </div>
+      <div class="cards__card cards__card_magic-avatars">
+        <img
+          src="./assets/magic-avatars/f3@2x.png"
+          srcset="./assets/magic-avatars/f3@3x.png"
+        />
+        <p></p>
+      </div>
+    </div>
+
+    <form action="#" class="checkbox-wrapper">
+      <input
+        data-href="https://apple.com/"
+        type="radio"
+        class="modern-radio"
+        value="1"
+        name="a"
+        id="yearly"
+      />
+      <label for="yearly" class="yearly">
+        <div class="best-offer"></div>
+        <div>
+          <p class="offer-title"></p>
+          <p class="offer-subtitle"></p>
+        </div>
+        <p class="price-per-week"></p>
+      </label>
+      <input
+        data-href="https://google.com/"
+        type="radio"
+        class="modern-radio"
+        value="2"
+        name="a"
+        id="week"
+      />
+      <label for="week" class="week">
+        <p class="offer-title"></p>
+        <p class="price-per-week"></p>
+      </label>
+      <button class="continue" type="submit" disabled></button>
+    </form>
+    <footer>
+      <a class="terms-of-use" href="#"></a>
+      <a class="privacy-policy" href="#"></a>
+      <a class="restore" href="#"></a>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
